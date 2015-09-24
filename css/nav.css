@@ -1,18 +1,38 @@
-
-#nav{
-    position:absolute;
-
-    width:100%; 
-}
 li a {
 text-decoration: none;
+    font-size:30px;
+    font-family:Comic Sans MS;
+    width:100%;
+    display:inline-block;
+    text-align:center;
     }
-#nav li {
+#nav ul li {
 position: relative;
 display:inline;
 padding:0;
-    
+color:yellow;   
+text-decoration:none;
+text-decoratiosn-color: yellow;
 text-align: center;
 width: 100%;
 margin:0;
+}
+#nav li {
+    list-style-type:none;
+}
+* {
+    background-color:aqua;
+}
+#logo h1 {
+    font-family:Comic Sans MS;
+    text-align:center;
+    color:red;
+    font-size:75px;
+}
+#welcome {
+font-family: Comic Sans MS;
+    Font-size:50px;
+}
+#nav {
+    border:10px dashed yellow;
 }
