@@ -1,6 +1,18 @@
-#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border:5px dashed black;
+
+#nav{
+    position:absolute;
+
+    width:100%; 
+}
+li a {
+text-decoration: none;
+    }
+#nav li {
+position: relative;
+display:inline;
+padding:0;
+    
+text-align: center;
+width: 100%;
+margin:0;
 }
