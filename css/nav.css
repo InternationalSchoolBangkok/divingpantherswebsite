@@ -1,4 +1,4 @@
-li a {
+#nav li a {
 text-decoration: none;
     font-size:30px;
     font-family:Comic Sans MS;
@@ -16,13 +16,12 @@ text-decoration: none;
 }
 
 * {
-    background-color:aqua;
+    background-color:black;
 }
-#logo h1 {
-    font-family:Comic Sans MS;
-    text-align:center;
-    color:red;
-    font-size:75px;
+#logo img {
+display:block;
+margin-left: auto;
+margin-right: auto;
 }
 #welcome {
 font-family: Comic Sans MS;
@@ -35,15 +34,14 @@ font-family: Comic Sans MS;
     font-family: Comic Sans MS;
 }
 
-nav{
+#nav{
     text-align: center;
     width:100%; 
 }
-nav ul li a{
-    text-decoration: none;
+
+#logo p {
+    text-align:center;
+    font-size:100px;
+    font-family:Comic Sans MS;
+    color:red;
 }
-
-nav ul li{
-    display:inline-block;
-
-}  
