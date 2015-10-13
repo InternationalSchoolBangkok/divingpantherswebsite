@@ -30,22 +30,18 @@ body {
 }
 
 ul {
+    display:table;
     list-style-type: none;
     margin: 0;
     padding: 2em;
-	overflow: hidden;
-	text-align: justify;
   	line-height: 0;
+    width: 100%;
 }
 
-ul:after {
-	content: '';
-  	display: inline-block;
-  	width: 100%;
-	}
 
-li {
-    display: inline;
+ul li {
+    display: table-cell;
+    text-align: center;
 	color: white;
 }
 
