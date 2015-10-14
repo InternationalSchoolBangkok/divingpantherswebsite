@@ -6,8 +6,19 @@
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
-
-<body><div class="all">
+<script language="JavaScript">
+function random(){
+var myimages=new Array()
+myimages[1]="pool.jpg"
+myimages[2]="dog.jpg"
+var img=Math.floor(Math.random()*myimages.length)
+if (img==0)
+img=1
+document.write('<body style="background-image:url('+myimages[img]+')">')
+}
+random()
+</script>
+<div class="all">
 <div class="container">
     
 <ul>
