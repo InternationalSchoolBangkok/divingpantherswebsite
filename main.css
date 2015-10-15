@@ -62,8 +62,10 @@ a:visited {
 	color: white;
 }
 
-img {
-
+#logo {
+	width: 45%;
+	min-width:420px;
+    height: auto;
 }
 
 .imgcon {
